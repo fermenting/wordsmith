@@ -33,6 +33,8 @@ You and your opponent will have an identical set of 16 letter tiles. In secret, 
 Setup
 Each player takes a pen/pencil, and one of each type of recording sheet.
 Ensure that the vowel bag has 5 vowels 
+
+
 (one of each: a, e, i, o, u)
 Ensure that the consonant bag has 21 consonants 
 (one of each: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z)
