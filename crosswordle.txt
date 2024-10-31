@@ -1,0 +1,54 @@
+crosswordle.txt
+
+pseudo crosswordle crosswordle
+
+Phases of construction
+I. Build the guessing mode ("single-player")
+II. Make it playable/testable via app + mobile web
+III. Build the constructor mode
+IV. A/B test game mechanics
+V. Build out 1v1 mode
+
+***************************************************************
+
+I. Build the guessing mode ("single-player")
+
+OVERVIEW
+-Explain how boards are constructed
+-Show how gameplay works
+-Explain how the game is won
+
+
+GIVEN
+The subset of letters that are in play
+How many words total are to be guessed
+The Anchor Word (always horizontal)
+All 2 letter words
+?unused letters (probably not relevant until 1v1, or maybe redundent based on the playable letters )
+
+HIDDEN
+The words to be guessed, sorted in alphabetical order
+    -revealed through gameplay by submitting guesses
+The sums of the letter counts of each word
+    -after guessing a word of x length, you get to see the amount of words that have x letters
+The "position" of each word, which is determined by horizontal or vertical orientation + weather it connects to the anchor word
+    -Anchor, Girder (horizontal), Crossbeam (intersect anchor), Post (vertical)
+    -When you guess one of the words, this is revealed
+
+INTERACT 
+* Select which word you are going to guess for
+* type/touch guessed word entry
+* A grid with the anchor word that the player can try different configurations out
+
+* A check guess button, which validates if the guess is a real word
+    *correct guess: show confirmation
+    *incorrect guess: for each letter, show if it is either correct, alphabetically "low" or "high"
+* A guess counter
+
+
+
+CONCLUSION
+once all words have been correctly guessed, the round is over, with the score being the total number of guesses made (lower is better)
+
+
+***************************************************************

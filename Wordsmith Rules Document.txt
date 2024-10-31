@@ -1,0 +1,119 @@
+﻿Wordsmith
+Design by Kevin Gamba and David Kessler
+
+
+2 players. Ages 12+. 45-60 min
+
+
+
+
+Components
+26x4 letter tiles. Minus two sets of red letters
+        5 yellow vowels x 4
+        Blue consonants x 4
+        Red consonants x 2
+
+
+Vowel draw bag.
+Consonant draw bag.
+
+
+Your puzzle recording sheet.
+Your guesses recording sheet.
+
+
+pen/pencilx2
+
+
+blindx2
+Overview
+You and your opponent will have an identical set of 16 letter tiles. In secret, you will each create an interlocking crossword using your letter tiles: this is your puzzle. You will try to figure out all of the words in your opponent’s puzzle. Each round, you will guess a word and receive information from your opponent about the letters in your guess word as they relate to the actual words in your opponent’s puzzle. Likewise, you will provide information to your opponent when they guess a word. Whoever can guess all of the words in their opponent’s puzzle first is the winner. 
+
+
+Setup
+Each player takes a pen/pencil, and one of each type of recording sheet.
+Ensure that the vowel bag has 5 vowels 
+(one of each: a, e, i, o, u)
+Ensure that the consonant bag has 21 consonants 
+(one of each: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z)
+
+
+One at a time, draw a letter from each bag–first draw from the consonant bag, then the vowel bag and repeat.
+        As soon as one player sees a word (of at least 4 letters long) that can be made with the letters that have been drawn, note it down. This is the anchor word, which will be used in gameplay: Phase 1.
+        Also note the first two blue letters drawn from the consonant bag and the first two vowels drawn from the vowel bag.
+
+
+Draw a total of 8 consonants and 4 vowels.
+        Only 2 red consonants may be used—if you draw a 3rd red consonant, place it aside out of play, and continue drawing until you have a total of 8 consonants.
+Red consonants: J, K, Q, X, Z
+
+
+The first two blue consonants and the first two vowels will be doubled. Each player searches the collection for 16 total letters: two of each of the first two vowels and consonants, and one of each of the remaining letters that were drawn from the bag.
+
+
+        If a Q was drawn-
+                Either: add one extra U to the letter pool of each player
+                Or: if there are already two Us in the pool, do nothing
+
+
+Once each player has 16 letters (possibly 17 with a Q and extra U), you are ready to begin phase 1: create your puzzle. 
+
+
+Gameplay
+Phase 1: create your puzzle
+        Behind your blind, arrange your 16 letters into an interlocking word puzzle. Each player must use the shared word that was noted during setup in their puzzle horizontally. This is the anchor word. 
+        –you may not add onto that initial word (eg, if the word was rot, you could not make the word trot)
+        –you do not have to, nor may you be able to, use all of your letters. You will reveal to your opponent which letters you do not use.
+        –likewise, you will reveal to your opponent any two letter words in your puzzle.
+
+
+
+
+
+
+After arranging your puzzle, write it down on your puzzle recording sheet. And, list each word in your puzzle. List words by letter length. And, if you have any words of the same letter length, list these word in alphabetical order
+
+
+  
+
+
+
+Once both players have finished, mix up your letter tiles and remove them from the blind, leaving only your puzzle recording sheet behind the blind. You will use the letter tiles to help you solve your opponent’s puzzle in phase 2.
+Phase 2: figure out your opponent’s puzzle
+Choose how you want to play: alphabetic directionality clues or right place/wrong place clues
+
+
+1. Simultaneously, both players submit a word guess by writing down a word of any letter length on the guesses recording sheet, using only the letters available in the puzzle, and making only real words (defined by dictionary). 
+2. Pass the recording sheet to your opponent. Opponent responds to your guess in the following manner:
+   1. Say how many words of that letter length are in their puzzle
+   2. If there are more than one, ask if you want information about the 1st, 2nd, 3rd, etc. (1st, 2nd, 3rd, etc, words are alphabetical)
+   3. Then, state word placement about the given word: crossbeam (intersects w/ anchor), girder (horizontal), post (vertical, but does not intersect with anchor)
+   4. Finally, mark the recording sheet underneath each letter of the word to give clues like so:
+      1. Alphabetical–Mark a star if the letter is correct. Mark an arrow pointing in the direction of the correct letter, either left or right alphabetically.
+         1. Example:  the correct word is RUN, and the guessed word is RAT. * under the R. → under A. ← under T
+      2. Right place/wrong place–Mark a star if the letter is correct and in the correct spot. Mark a line if the letter is in the correct word, but it is not in the right spot. Mark nothing if the letter is not in the correct word at all
+         1. Example: the correct word is RUN, and the guessed word is NUT. – under the N. * under the U. nothing under the T
+   5. Return the recording sheet to the original player so you can make more guesses. 
+   6. Next round, you may continue guessing the same word or you may move onto a different word entirely. For example, you may continue guessing at the 3 letter word (of which the correct word is RUN) or you may guess a 5 letter word. 
+   7. Keep guessing one word at a time until you think you know all the words in the puzzle
+
+
+  
+
+Game End
+You need not have submitted all the individual words in the puzzle and gotten all stars on each one to end the game.
+
+
+You will instead build the full puzzle out of letter tiles and submit that as your guess. If you got all the words correct, then you’re done!
+
+
+If not, the only information you will receive is that it is not correct. 
+
+
+The first player to submit the full puzzle correctly is the winner. If both players submit the full puzzle in the same round, then it is a tie.
+
+
+Sometimes, a correct puzzle may not be exactly as built by your opponent. For example, if the word AID intersects with the word MADDER, it does not matter which of MADDER’s Ds was used to make the word AID.
+
+
+In order to correctly submit a puzzle, you simply must have all of the words in your opponent's puzzle.
