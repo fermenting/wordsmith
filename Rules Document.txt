@@ -63,7 +63,7 @@ Once each player has 16 letters (possibly 17 with a Q and extra U), you are read
 
 Gameplay
 Phase 1: create your puzzle
-        Behind your blind, arrange your 16 letters into an interlocking word puzzle. Each player must use the shared word that was noted during setup in their puzzle horizontally. This is the anchor word. 
+        Behind your blind, arrange your  letters into an interlocking word puzzle. Each player must use the shared word that was noted during setup in their puzzle horizontally. This is the anchor word. 
         –you may not add onto that initial word (eg, if the word was rot, you could not make the word trot)
         –you do not have to, nor may you be able to, use all of your letters. You will reveal to your opponent which letters you do not use.
         –likewise, you will reveal to your opponent any two letter words in your puzzle.

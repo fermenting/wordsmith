@@ -11,6 +11,14 @@ V. Build out 1v1 mode
 
 ***************************************************************
 
+O. Wireframe
+
+
+
+
+
+
+****************************************************
 I. Build the guessing mode ("single-player")
 
 OVERVIEW
@@ -52,3 +60,133 @@ once all words have been correctly guessed, the round is over, with the score be
 
 
 ***************************************************************
+
+III. Build the constructor mode
+
+LETTER PICK AND POOL
+
+Vowels: (a, e, i, o, u)
+ConsonantsBlue: (b, c, d, f, g, h, l, m, n, p, r, s, t, v, w, y)
+ConsonantRed: (J, K, Q, X, Z)
+ConsonantAll: ConsonantsBlue + ConsonantRed
+DoubledLetters: empty array
+Players: player1 & player2
+Counts: all counts resets to 0 at beginning of each game
+CountConsantRed: 0
+CountConsantBlue: 0  
+CountVowel: 0 (resets to 0 at beginning of each game)
+CountLetterPool: 0
+
+Pick a Players to go first, players will take turns drawing letters
+
+Idea: Use a case statement to handle different situations based on the CountLetterPool and how many red consonants have been picked
+
+function: PickConsonant
+Draw a consonant - 1 random consonant is picked from ConsonantAll. Defined as NewConsonant
+Check if NewConsonant is in ConsonantRed. if so, add 1 to CountConsantRed and remove NewConsonant from ConsonantRed
+Check if NewConsonant is in ConsonantBlue. if so, add 1 to CountConsantBlue, remove NewConsonant from ConsonantBlue, and add NewConsant to DoubledLetters
+Move NewConsonant to LetterPool
+Increment CountLetterPool 
+ 
+function: PickVowel
+Draw a vowel - 1 random vowel is picked from Vowels, then defined as NewVowel
+NewVowel is removed from Vowels (Gameplay mechanic question: should we do this???)
+Add NewVowel to DoubledLetters
+
+Move NewVowel to LetterPool
+Increment CountLetterPool
+
+PickConsonant again (CountLetterPool should be 3)
+PickVowel again (CountLetterPool should be 4)
+
+Once CountConsantBlue is 2, 
+
+function: PossibleAnchor
+In addtion to drawing letters, now enable option to use the letters in LetterPool to submit a 4-letter word as an anchor word, define as PossibleAnchor
+Upon submission of PossibleAnchor, validate that it is a legitimate word (will need a list of valid words)
+If PossibleAnchor is valid, then it becomes the AnchorWord
+Once an AnchorWord has been defined, disable PossibleAnchor submission 
+Optional: display AnchorWord 
+
+Once CountVowel is 4 or CountLetterPool is 8, do not pick any more Vowels
+
+Continue to PickConsonant until CountLetterPool is 12. We are done picking letters.
+Add letters from from DoubledLetters to LetterPool (CountLetterPool is 16)
+
+If "Q" is in LetterPool and "U" is not in LetterPool then add "U" to LetterPool (17 Letters)
+
+End of letter Selection
+
+
+
+SMITHING OF THE WORDS
+
+Remove the letters in AnchorWord from LetterPool and display them upon a grid, horizontally, in the middle.
+
+Math: Playable letters 17 - 4 = 13. 
+Maximum Grid height would be 13 above + 1 anchor word + 13 below = 27
+but you could only build in one direction that high, either up, or down but not both.
+Maximum Solution Width would be 13 + 4 - 1 = 16
+
+The grid should be large enough to show the solution, but not any larger than it needs to be (larger equals worse resolution)
+
+Square dimensions or portrait grid dimensions (14 high by 10 wide) for mobile are acceptable
+
+Idea A: Display half as much of this (7 above and 7 below), but if gameplay starts approaching the border (within 3 from top/bottom edge, then display a new row as build approaches it)
+Idea B: Display a grid of 5 above, 1 anchor row, and 5 below for a total of 11. Display an 11 x 11 square. Expand if you need to.
+IDEA C: Make the whole screen a grid (except menus/nav) and add the LetterPool letters to the bottom/top of the grid.
+
+
+For grid construction, methods of "entry"
+Tap: Tap a letter in the LetterPool or a placed letter (not in the AnchorWord) to select it. Then tap an empty square in the grid to place it.
+Hold & Drag: tap and hold on a letter, then drag it to the space you would like it to be placed on. This can be done with mouse on web.
+Type: Select a square in the grid, type in the letter to place. If the letter typed is valid, then move it from the pool or it's current spot in the grid to the selected square. Does not apply to the AnchorWord.
+
+Help/Guide
+(?) button to show how to construct puzzle and valid boards. 
+Words can be built vertically and horizontally, but not diagonally
+Words can touch in multiple places as long as all adjacent letters form valid words.
+Can't extend anchor word, 
+don't need to use all of the letters, 
+The type of word will be shown, based on their connection to the anchor word (girder, post, etc)
+you will reveal the pool of letters that you used for your puzzle
+2-letter words will be revealed
+
+Disallow entries for the horizontal spaces before & after the anchor word. Ex: you can't turn "hard" into "shard" or "hardy"
+
+Players will construct their Solution by arranging tiles on the board.
+
+When they are satisfied with their arrangement, check:
+
+Are the words played valid words?
+    Blocking: Highlight in red non-valid words and display "this isn't a valid word"
+What is the length of each word?
+    Count all word lengths, ignoring anchor words. Add each word to an array based on its letter length, then alphabetize words within each array.
+What is the "position" of each word (defined below)
+Are there any 2-letter words
+    Highlight in yellow and display "All 2-letter words will be shared with the other player"
+
+
+
+POSTIONS
+David+Kevin                 Brainstorm                      Lyle
+ANCHOR--shared word         ->ridge? apex? top chord?       Ridge
+Defined
+CROSSBEAM--intersect anchor ->Purlin                        Strut
+built vertically, 1-letter will be in common with ANCHOR
+GIRDER--horizontal          ->rafter, chord strut, joist    Joist
+Any Horizontal word that is not ANCHOR
+POST--vertical              ->buttress?                     Post
+Vertical, but does not touch ANCHOR
+
+The whole assembly is a Truss, composed of these elements
+"Raise the Roof" 
+
+From top to bottom and left to right (does this actually matter?)
+
+
+
+
+
+
+
