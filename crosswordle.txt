@@ -187,6 +187,20 @@ From top to bottom and left to right (does this actually matter?)
 
 
 
+**********
 
+Tutorials/Examples
+https://cupofcode.blog/wordle-in-react-multiword/
 
+https://debanjan1992.medium.com/wordicle-a-react-based-word-guessing-game-b5ffd4c40a01
 
+https://github.com/rozmichelle/wordleclone
+https://www.rozmichelle.com/react-game-design-recreating-wordle/
+
+https://www.codementor.io/@oyebanjijacob/creating-a-boggle-game-using-react-part-1-bd37sulcs
+
+https://github.com/Maximilian-Oberholtzer/letter-swap/tree/main
+
+https://github.com/anasshad/wordgame?tab=readme-ov-file
+
+https://github.com/driftingly/react-word-game
